@@ -21,10 +21,10 @@ var font="js/googlefonttest.js";
 
 
 
-require([font,css_sample,ans_j], function (ft,c,$) 
+require([font,css_sample,ans_j,'loadstuff','second-stuff'], function (ft,c,$,s,ss) 
 {
 	
-alert('font css and js have been loaded');
+alert('font css and js have been loaded '+s+ss);
 });
 /*
 			require([css_sample], function() {
